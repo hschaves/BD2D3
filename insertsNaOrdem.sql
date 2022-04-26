@@ -1750,6 +1750,7 @@ INSERT INTO `orders`(`orderNumber`,`orderDate`,`requiredDate`,`shippedDate`,`sta
 
 (10425,'2005-05-31','2005-06-07',NULL,'In Process',NULL,119);
 
+insert  into `orderdetails`(`orderNumber`,`productCode`,`quantityOrdered`,`priceEach`,`orderLineNumber`) values 
 
 (10263,'S32_1374',31,'93.90',8),
 
